@@ -1,0 +1,658 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+Background {
+	groundAngle	[ 0.9, 1.5, 1.57 ]
+	groundColor	[ 0 0.8 0,
+			  0.174249 0.82 0.187362,
+			  0.467223 0.82 0.445801,
+			  0.621997 0.67 0.600279 ]
+	skyAngle	[ 0.1, 1.2, 1.57 ]
+	skyColor	[ 0.76238 0.8 0.1427,
+			  0.277798 0.219779 0.7,
+			  0.222549 0.390234 0.7,
+			  0.60094 0.662637 0.69 ]
+}
+DEF Track Transform {
+	translation	0 -0.35 0
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    ambientIntensity	0.2
+				    diffuseColor	0 0 0
+				    emissiveColor	0.5 0.5 0.5
+			    }
+
+		    }
+
+		    geometry	Box {
+			    size	100 0.1 0.7
+		    }
+
+	    }
+
+	    DEF Tick0 Transform {
+		    translation	0 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 1
+					    emissiveColor	0 0 1
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	1 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	2 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	3 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	4 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	5 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	6 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	7 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	8 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	9 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick1 Transform {
+		    translation	10 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-1 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-2 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-3 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-4 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-5 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-6 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-7 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-8 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-9 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+
+	    DEF Tick-1 Transform {
+		    translation	-10 0 0
+		    children Shape {
+			    appearance	Appearance {
+				    material	Material {
+					    diffuseColor	0 0 0
+				    }
+
+			    }
+
+			    geometry	Box {
+				    size	0.03 0.1 0.7
+			    }
+
+		    }
+	    }
+	]
+}
+DEF Front_Camera Viewpoint {
+	fieldOfView	0.785398
+	position	0 0 6.5
+	description	"Front Camera"
+}
+DEF Top_Camera Viewpoint {
+	orientation	-1 0 0  1.5708
+	position	0 5 0.5
+	description	"Top Camera"
+}
+DEF Side_Camera_Right Viewpoint {
+	orientation	0 1 0  1.5708
+	position	7 0.5 0
+	description	"Side Camera Right"
+}
+DEF Side_Camera_Left Viewpoint {
+	orientation	0 -1 0  1.5708
+	position	-7 0.5 0
+	description	"Side Camera Left"
+}
+DEF Cart_Frame Transform {
+	translation	0 0 0
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    transparency	0.9
+			    }
+
+		    }
+
+		    geometry	Box {
+			    size	0.2 0.2 0.2
+		    }
+
+	    }
+
+	    DEF Cart_Body Transform {
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+						diffuseColor	0 0 1
+					}
+
+				}
+
+				geometry	Box {
+					size	1 0.4 0.5
+				}
+
+			}
+
+			DEF Cart_Axel_Front Transform {
+				translation	0.3 -0.15 0
+				rotation	1 0 0  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	0.8
+						    radius	0.05
+					    }
+
+				    }
+
+				    DEF Wheel_FR Transform {
+					    translation	0 0.3 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	Material {
+								    diffuseColor	0 0 0
+							    }
+
+						    }
+
+						    geometry	Cylinder {
+							    height	0.1
+							    radius	0.15
+						    }
+
+					    }
+				    }
+
+				    DEF Wheel_FL Transform {
+					    translation	0 -0.3 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	Material {
+								    diffuseColor	0 0 0
+							    }
+
+						    }
+
+						    geometry	Cylinder {
+							    height	0.1
+							    radius	0.15
+						    }
+
+					    }
+				    }
+				]
+			}
+
+			DEF Cart_Axel_Back Transform {
+				translation	-0.3 -0.15 0
+				rotation	1 0 0  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	0.8
+						    radius	0.05
+					    }
+
+				    }
+
+				    DEF Wheel_BR Transform {
+					    translation	0 0.3 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	Material {
+								    diffuseColor	0 0 0
+							    }
+
+						    }
+
+						    geometry	Cylinder {
+							    height	0.1
+							    radius	0.15
+						    }
+
+					    }
+				    }
+
+				    DEF Wheel_BL Transform {
+					    translation	0 -0.3 0
+					    children Shape {
+						    appearance	Appearance {
+							    material	Material {
+								    diffuseColor	0 0 0
+							    }
+
+						    }
+
+						    geometry	Cylinder {
+							    height	0.1
+							    radius	0.15
+						    }
+
+					    }
+				    }
+				]
+			}
+
+			DEF Pendulum_Hinge Transform {
+				translation	0 0.1 0.4
+				rotation	1 0 0  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	0.4
+						    radius	0.05
+					    }
+
+				    }
+
+				    DEF Hinge_Ring Transform {
+					    translation	0 0.1 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+									diffuseColor	1 0 0
+								}
+
+							}
+
+							geometry	Cylinder {
+								height	0.1
+								radius	0.15
+							}
+
+						}
+
+						DEF Pendulum_Frame Transform {
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+										    transparency	1
+									    }
+
+								    }
+
+								    geometry	Box {
+									    size	0.2 0.2 0.2
+								    }
+
+							    }
+
+							    DEF Pendulum Transform {
+								    translation	0 0 -1
+								    rotation	1 0 0  1.5708
+								    children Shape {
+									    appearance	Appearance {
+										    material	Material {
+											    diffuseColor	1 0 0
+										    }
+
+									    }
+
+									    geometry	Cylinder {
+										    radius	0.05
+									    }
+
+								    }
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+
+			DEF Tick Transform {
+				translation	0 -0.15 0
+				children Shape {
+					appearance	Appearance {
+						material	Material {
+							diffuseColor	1 1 0.00200167
+						}
+
+					}
+
+					geometry	Box {
+						size	0.03 0.1 0.5
+					}
+
+				}
+			}
+		    ]
+	    }
+	]
+}
